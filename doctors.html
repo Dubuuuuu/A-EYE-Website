@@ -324,7 +324,6 @@
         clinic: "iDoctor Vision Center",
         phone: "+639171234567",
         email: "jan.sayco@example.com",
-        avatar: ""
       },
       {
         id: 2,
@@ -334,7 +333,6 @@
         clinic: "Our Lady Of Fatima University Medical Center",
         phone: "+639181234567",
         email: "minerva.manalili@example.com",
-        avatar: ""
       },
       {
         id: 3,
@@ -344,7 +342,6 @@
         clinic: "Our Lady Of Fatima University Medical Center",
         phone: "+639191234567",
         email: "aillen.abines@example.com",
-        avatar: ""
       },
       {
         id: 4,
@@ -354,7 +351,6 @@
         clinic: "The Medical City",
         phone: "+639201234567",
         email: "carlos.mendoza@example.com",
-        avatar: ""
       },
       {
         id: 5,
@@ -364,7 +360,6 @@
         clinic: "Bonifacio Global City Clinic",
         phone: "+639211234567",
         email: "liza.cruz@example.com",
-        avatar: ""
       },
       {
         id: 6,
@@ -374,7 +369,6 @@
         clinic: "Mandaluyong Eye Center",
         phone: "+639221234567",
         email: "ramon.garcia@example.com",
-        avatar: ""
       },
       {
         id: 7,
@@ -384,7 +378,6 @@
         clinic: "Pasay Medical Clinic",
         phone: "+639231234567",
         email: "teresa.lim@example.com",
-        avatar: ""
       },
       {
         id: 8,
@@ -394,7 +387,70 @@
         clinic: "Makati Medical Center",
         phone: "+639241234567",
         email: "miguel.santos@example.com",
-        avatar: ""
+      },
+      {
+        id: 9,
+        name: "Dr. Ma. Cristina Santos",
+        specialty: "Ophthalmologist",
+        location: "Quezon City, Philippines",
+        clinic: "Ma. Cristina M. Santos Eye Clinic",
+        phone: "+639274200573",
+      },
+      {
+        id: 10,
+        name: "Dr. Ferdinand E. Tan",
+        specialty: "Ophthalmologist",
+        location: "Quezon City, Philippines",
+        clinic: "Novaliches General Hospital",
+        phone: "(02) 8938-7890",
+      },
+      {
+       id: 11,
+        name: "Dr. Frederick A. Cheng",
+        specialty: "Ophthalmologist",
+        location: "Quezon City, Philippines",
+        clinic: "Clinica Caritas, Lagro",
+        phone: "(02) 8461-6774",
+      },
+      {
+       id: 12,
+        name: "Dr. Ildefonso M. Chan",
+        specialty: "Retina Specialist",
+        location: "Paco Manila, Philippines",
+        clinic: "Dr. Ildefonso M. Chan Virtual Eye Clinic",
+        phone: "(02) 8523-1613",
+      },
+      {
+       id: 13,
+        name: "Dr. Melchor Gabriel",
+        specialty: "Ophthalmologist",
+        location: "Santa Cruz Manila, Philippines",
+        clinic: "Chinese General Hospital and Medical Center",
+        phone: "(02) 8711-4141",
+      },
+      {
+      id: 14,
+        name: "Dr. Guillermo Cornelius T. Loja",
+        specialty: "Ophthalmologist",
+        location: "Novaliches Quezon City, Philippines",
+        clinic: "Bernardino General Hospital I",
+        phone: "(02) 8935-5264",
+      },
+      {
+      id: 15,
+        name: "Dr. Roberto Uy",
+        specialty: "Retina Specialist",
+        location: "Sampaloc Manila, Philippines",
+        clinic: "Manila Eye Specialist, Farinas Building",
+        phone: "+639338614585",
+      },
+      {
+      id: 16,
+        name: "Dr. Laurence Myles B. Fabros",
+        specialty: "Optometrist",
+        location: "San Juan City, Philippines",
+        clinic: "Laurence Myles B. Fabros Eye Clinic",
+        phone: "+639354355675",
       }
     ];
 
@@ -418,7 +474,6 @@
       card.setAttribute('aria-label', `Doctor ${doctor.name}, specialty ${doctor.specialty}, located in ${doctor.location}`);
 
       card.innerHTML = `
-        <img src="${doctor.avatar}" alt="Photo of ${doctor.name}" class="doctor-avatar" loading="lazy" />
         <div class="doctor-info">
           <h2 class="doctor-name">${doctor.name}</h2>
           <p class="doctor-specialty">${doctor.specialty}</p>
